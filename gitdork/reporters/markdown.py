@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from ..models import CATEGORY_LABELS, DorkCategory, DorkEngine, DorkResult
+from ..models import CATEGORY_LABELS, DorkEngine, DorkResult
 
 ENGINE_EMOJIS = {
     DorkEngine.GOOGLE: "🔍",
@@ -51,9 +51,9 @@ def to_markdown(result: DorkResult) -> str:
                 lines.append("")
 
             lines.append(f"**{dork.description}**")
-            lines.append(f"```")
+            lines.append("```")
             lines.append(dork.query)
-            lines.append(f"```")
+            lines.append("```")
             if dork.url:
                 lines.append(f"[Open in {engine.value.capitalize()}]({dork.url})")
             lines.append("")

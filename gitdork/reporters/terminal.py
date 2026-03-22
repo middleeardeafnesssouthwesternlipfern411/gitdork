@@ -66,7 +66,8 @@ def _print_by_engine(result: DorkResult):
 
         color = ENGINE_COLORS[engine]
         label = ENGINE_LABELS[engine]
-        console.print(f"[bold {color}]── {label} ({'─' * (50 - len(label))})[/bold {color}]")
+        sep = "─" * (50 - len(label))
+        console.print(f"[bold {color}]── {label} ({sep})[/bold {color}]")
 
         table = Table(
             box=box.SIMPLE,

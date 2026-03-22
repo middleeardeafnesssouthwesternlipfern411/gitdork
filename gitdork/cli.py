@@ -142,8 +142,9 @@ main.add_command(generate_cmd, name="generate")
 @main.command("list-categories")
 def list_categories():
     """List all available dork categories."""
-    from rich.table import Table
     from rich import box
+    from rich.table import Table
+
     from .models import CATEGORY_LABELS
 
     table = Table(box=box.SIMPLE_HEAD, header_style="bold dim")
@@ -159,8 +160,8 @@ def list_categories():
 @main.command("list-engines")
 def list_engines():
     """List all supported dork engines."""
-    from rich.table import Table
     from rich import box
+    from rich.table import Table
 
     table = Table(box=box.SIMPLE_HEAD, header_style="bold dim")
     table.add_column("ENGINE", style="cyan", width=10)

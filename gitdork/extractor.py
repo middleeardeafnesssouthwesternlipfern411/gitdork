@@ -6,7 +6,6 @@ Optionally fetches repo metadata from the GitHub API.
 from __future__ import annotations
 
 import re
-from urllib.parse import urlparse
 
 from .models import Target
 
